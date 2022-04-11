@@ -8,28 +8,22 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="converter-container">
-      <h1>px-em converter</h1>
-      
-      <form action="#" class="converter">
-        <div>
-          <label for="base-pixel">Base Pixel Size:</label>
-          <input type="number" id="base-pixel" />
-        </div>
-
-        <div class="px-em">
-          <div>
-            <label for="pixel">PX:</label>
-            <input type="number" id="pixel" />
-          </div>
-
-          <div>
-            <label for="em">EM:</label>
-            <input type="number" id="em" />
-          </div>
-        </div>
-
-      </form>
-    </div>
+    <main>
+      <section class="container">
+          <section class="pixel">
+            <h1>PX - EM Converter</h1>
+            
+            <div class="input-container">
+              <label for="base-pixel"><input type="number" id="base-pixel" placeholder="Base Pixel"></label>
+              <label for="pixel"><input type="number" id="pixel" placeholder="Pixel"></label>
+            </div>
+          </section>
+          <button>&#8593; &#8595;</button>
+          <section class="em">
+            <p id="em">EM</p>
+          </section>
+      </section>
+    </main>
+    <script src="script/script.js"></script>
   </body>
 </html>
