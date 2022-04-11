@@ -24,7 +24,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 💻 Projeto
 
-Este projeto é um conversor de medidas que converte PX para EM. É possível acessar o projeto através <a href="https://splendorous-tapioca-498a71.netlify.app">deste link.</a>
+Este projeto é um conversor de unidades que converte PX para EM. É possível acessar o projeto através <a href="https://splendorous-tapioca-498a71.netlify.app">deste link.</a>
 
 ## ⚙ Como executar
 
