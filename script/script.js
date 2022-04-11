@@ -1,8 +1,12 @@
-const em = document.querySelector(".em").value;
+document.querySelector(".btn").addEventListener("click", function () {
+  const px = document.querySelector("#pixel").value;
+  const basePX = document.querySelector("#base-pixel").value;
+  let em = px / basePX;
 
-document.querySelector("body").addEventListener("keypress", function () {
-  const basePixel = Number(document.querySelector("#base-pixel").value);
-  const pixel = Number(document.querySelector("#pixel").value);
-  const calcEM = pixel / basePixel;
-  document.querySelector(".em").textContent = calcEM;
+  if (!px && !basePX) {
+    document.querySelector(".erro").style.display = "block";
+  } else {
+    document.querySelector("#em").textContent = em;
+    document.querySelector(".erro").style.display = "none";
+  }
 });
